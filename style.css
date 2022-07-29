@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Allerta', sans-serif;
+    /* font-family: 'Abel', sans-serif; */
+}
+
+/* 
+======================
+       NavBar
+======================
+ */
+ #navbarMonstera {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    font-size: 1.5rem;
+ }
+
+ #navMid {
+    display: flex;
+    margin: 0 3rem;
+ }
+ #navMid div {
+    margin: 0 3rem;
+ }
+
+ #navEnd {
+    display: flex;
+ }
+ #navEnd div {
+    margin: 0 1rem;
+ }
+
+ /* 
+=============================
+   After NavBar or Middle
+============================
+ */
+
+ #midWhole {
+    display: flex;
+    justify-content: space-between;
+ } 
+
+ #midWholePart1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+ }
+ #midWholePart11 {
+    padding: 5rem;
+    font-size: 1.5rem;
+ }
+#monstera {
+    font-size: 8rem;
+    font-weight: bolder;
+}
+#midWholePart121 {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: #466D50;
+    margin-left: 5rem;
+    border-radius: 3rem;
+}
+
+#midWholePart12 {
+    display: flex;
+}
+
+#midWholePart121 div h1 {
+    font-weight: 100;
+}
+
+#midWholePart13 {
+    display: flex;
+    align-items: center;
+    padding: 5rem 0rem 1rem 3rem;
+}
+
+.text {
+    font-size:1rem ;
+    font-family: 'Abel';
+}
+
+.midWholePart13Parts {
+    display: flex;
+    flex-direction: row;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+#midWholePart13Parts div img{
+    margin: 0 1rem;
+}
+
+#midWholePart122 {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
